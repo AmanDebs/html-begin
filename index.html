@@ -1,20 +1,35 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>message</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script>
-      // TODO: Add hello code
-      function getmessage(name) {
-        return "Hello, " + name + "...";
-      }
-      const message = getmessage("Ornella");
-      document.write(message);
-
-      // TODO: Add setTimeout code
-      setTimeout(() => {
-        document.write("Hello Again..");
-      }, 2000);
-    </script>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <body>
+      <div class="container">
+        <h1>
+          Notes <img src="images/download.png" alt="notes" width="30px" />
+        </h1>
+        <div class="notesbox">
+          <textarea name="notes" id="notes" cols="30" rows="10" placeholder="Add notes"></textarea>
+        </div>
+      </div>
+    </body>
+    <footer>
+      
+        <p class="footer">Made by Aman &copy;</p>
+      </div>
+    </footer>
   </body>
 </html>
